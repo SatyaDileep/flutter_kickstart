@@ -10,12 +10,21 @@ void main() {
     /// required for material design applications
     MaterialApp(
       /// scaffold is a screen that basically covers the entire main screen of the app
-        home: Scaffold(
+      home: Scaffold(
           /// appBar is a property that is used display at the top of scaffold
           appBar: AppBar(
-            backgroundColor: Colors.amberAccent,
+            backgroundColor: Colors.blueGrey,
+            title: Text("Flutter is dart hot..!"),
           ),
-        )
+          /// we are done with app bar config.. lets go to scaffold config now
+          backgroundColor: Colors.white12,
+          /// create the body with center alignment - we shall include image here
+          body: Center(
+            child: Image(
+              image: AssetImage('images/woo.jpeg'),
+            ),
+          ),
+      ),
     ),
   );
 }
