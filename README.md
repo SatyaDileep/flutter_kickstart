@@ -6,6 +6,9 @@ Started coding with flutter.. of course I&#x27;m a noob.. sooner or later I&#x27
 
 This project is a starting point for a Flutter application.
 
+Output : Simple app bar along with body containing an image :
+
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
